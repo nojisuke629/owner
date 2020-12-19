@@ -348,6 +348,7 @@ class NeuralNetwork(LearningAndPredict):
 
         """ Test """
         self.prediction(data_ds=predict_ds, data_num=self.predict_num)
+        print('Done')
 
 
 def main():
